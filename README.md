@@ -6,7 +6,7 @@ Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.co
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Dark Mode Only** — Elegant, minimalist, and futuristic design
 - **Interactive Star Field** — Canvas-based particle background that reacts to mouse movement
@@ -17,7 +17,7 @@ Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.co
 - **Contact Form** — Clean, functional contact form UI
 - **Fully Responsive** — Optimized for desktop, tablet, and mobile
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or later)
@@ -45,7 +45,7 @@ To add a video background to the Hero section:
 2. Rename it to `hero-video.mp4`
 3. Refresh the page — the video will auto-play behind the hero text
 
-## 🏗️ Deploy on Vercel
+##  Deploy on Vercel
 
 The easiest way to deploy this app:
 
@@ -57,7 +57,7 @@ The easiest way to deploy this app:
 
 > **Note:** No environment variables are required for this project.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 solidus-landing/
@@ -75,7 +75,7 @@ solidus-landing/
 └── package.json
 ```
 
-## 🎨 Color Palette
+##  Color Palette
 
 | Color         | Hex       | Usage                |
 |---------------|-----------|----------------------|
@@ -84,6 +84,6 @@ solidus-landing/
 | Dark Blue     | `#021c36` | Accent / gradients   |
 | White         | `#FFFFFF` | Text / foreground    |
 
-## 📄 License
+##  License
 
 This project is private and proprietary to Solidus Group, L.P.
