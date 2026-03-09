@@ -1,4 +1,4 @@
-# Solidus Group, L.P. — Landing Page
+# Solidus Group Landing Page
 
 A premium, futuristic dark-mode landing page for **Solidus Group, L.P.** and its subsidiary **Nova Ltd.**
 
