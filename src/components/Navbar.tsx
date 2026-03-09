@@ -44,8 +44,8 @@ export default function Navbar() {
                         <Link href="#team" className="hover:text-white transition-colors">
                             {lang("Tim Kami", "Our Team")}
                         </Link>
-                        <Link href="#contact" className="hover:text-white transition-colors">
-                            {lang("Kontak", "Contact")}
+                        <Link href="#careers" className="hover:text-white transition-colors">
+                            {lang("Karir", "Careers")}
                         </Link>
                     </div>
                 </div>

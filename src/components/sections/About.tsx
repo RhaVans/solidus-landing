@@ -62,8 +62,8 @@ export default function AboutSection() {
                     >
                         <div className="absolute inset-0 bg-gradient-to-tr from-brand-darkblue/40 to-transparent z-10 group-hover:opacity-0 transition-opacity duration-700" />
                         <img
-                            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80"
-                            alt="Technology Vision"
+                            src="/about-bloomberg.png"
+                            alt="Financial Professional using Bloomberg Terminal"
                             className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                         />
                     </motion.div>

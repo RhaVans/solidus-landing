@@ -40,12 +40,12 @@ export default function HeroSection() {
 
             <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
                 <motion.div
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 1.2, ease: "easeOut" }}
+                    initial={{ opacity: 0, scale: 0.5, y: -50 }}
+                    animate={{ opacity: 1, scale: 1, y: 0 }}
+                    transition={{ duration: 1.5, type: "spring", bounce: 0.4 }}
                     className="mb-8 flex justify-center"
                 >
-                    <div className="relative w-32 h-32 md:w-48 md:h-48">
+                    <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80">
                         <Image src="/SOLIDUS LOGO.png" alt="Solidus Logo" fill className="object-contain invert brightness-0" priority />
                     </div>
                 </motion.div>
