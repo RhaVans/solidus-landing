@@ -12,7 +12,7 @@ export default function CareersSection() {
         {
             id: 1,
             title: "Software Engineer",
-            salary: "Rp 30.000.000 - Rp 50.000.000 / " + lang("bulan", "month"),
+            salary: "Rp 50.000.000 - Rp 70.000.000 / " + lang("bulan", "month"),
             responsibilities: lang(
                 "Merancang, mengembangkan, dan memelihara infrastruktur trading dan platform internal. Mengoptimalkan latensi tingkat mikrodetik.",
                 "Design, develop, and maintain trading infrastructure and internal platforms. Optimize for microsecond-level latency."
@@ -25,7 +25,7 @@ export default function CareersSection() {
         {
             id: 2,
             title: "Financial Analyst",
-            salary: "Rp 25.000.000 - Rp 35.000.000 / " + lang("bulan", "month"),
+            salary: "Rp 50.000.000 - Rp 70.000.000 / " + lang("bulan", "month"),
             responsibilities: lang(
                 "Melakukan pemodelan keuangan yang kompleks, valuasi aset, dan memberikan rekomendasi investasi berdasarkan analisis fundamental.",
                 "Perform complex financial modeling, asset valuation, and provide investment recommendations based on fundamental analysis."
@@ -38,7 +38,7 @@ export default function CareersSection() {
         {
             id: 3,
             title: "Quantitative Analyst (Entry Level Quant)",
-            salary: "Rp 37.500.000 / " + lang("bulan", "month"),
+            salary: "Rp 100.000.000 / " + lang("bulan", "month"),
             responsibilities: lang(
                 "Membantu tim riset dalam mengumpulkan, membersihkan, dan menganalisis dataset besar. Melakukan backtesting dasar untuk ide-ide trading.",
                 "Assist the research team in collecting, cleaning, and analyzing large datasets. Perform basic backtesting for trading ideas."
@@ -51,7 +51,7 @@ export default function CareersSection() {
         {
             id: 4,
             title: "Quantitative Researcher (Mid Level Quant)",
-            salary: "Rp 62.500.000 / " + lang("bulan", "month"),
+            salary: "Rp 150.000.000 / " + lang("bulan", "month"),
             responsibilities: lang(
                 "Mengembangkan model prediktif alpha independen. Mengaplikasikan machine learning dan model matematis tingkat lanjut pada market data.",
                 "Develop independent predictive alpha models. Apply machine learning and advanced mathematical models to market data."
@@ -64,7 +64,7 @@ export default function CareersSection() {
         {
             id: 5,
             title: "Senior Quantitative Researcher",
-            salary: "Rp 100.000.000+ / " + lang("bulan", "month"),
+            salary: "Rp 250.000.000+ / " + lang("bulan", "month"),
             responsibilities: lang(
                 "Memimpin siklus penuh penelitian hingga eksekusi strategi trading frekuensi tinggi (HFT) atau menengah. Mengawasi analis junior.",
                 "Lead the full research cycle through to execution of high-frequency (HFT) or mid-frequency trading strategies. Supervise junior analysts."
@@ -77,7 +77,7 @@ export default function CareersSection() {
         {
             id: 6,
             title: "Head of Quantitative Research",
-            salary: "Rp 187.500.000+ / " + lang("bulan", "month") + " & Share Profit",
+            salary: "Rp 500.000.000+ / " + lang("bulan", "month") + " & Share Profit",
             responsibilities: lang(
                 "Menentukan arah strategis untuk seluruh departemen kuantitatif. Mengalokasikan kapasitas risiko dan menyetujui peluncuran model baru.",
                 "Determine the strategic direction for the entire quantitative department. Allocate risk capacity and approve the launch of new models."
@@ -90,7 +90,7 @@ export default function CareersSection() {
         {
             id: 7,
             title: "Office Boy",
-            salary: "Rp 10.000.000 / " + lang("bulan", "month"),
+            salary: "Rp 25.000.000 / " + lang("bulan", "month"),
             responsibilities: lang(
                 "Menjaga kebersihan, kerapian, dan ketersediaan fasilitas pantry di kantor standar internasional kami.",
                 "Maintain the cleanliness, tidiness, and availability of pantry facilities in our international standard office."
@@ -116,7 +116,7 @@ export default function CareersSection() {
         {
             id: 9,
             title: lang("Secretary of Chairman (Female Only)", "Secretary of Chairman (Female Only)"),
-            salary: "Rp 30.000.000 / " + lang("bulan", "month"),
+            salary: "Rp 60.000.000 / " + lang("bulan", "month"),
             responsibilities: lang(
                 "Menangani semua kebutuhan korporat dan administratif personal untuk Chairman dengan tingkat kerahasiaan absolut.",
                 "Handle all corporate and personal administrative needs for the Chairman with absolute confidentiality."
@@ -134,7 +134,7 @@ export default function CareersSection() {
         lang("Asuransi medis, gigi, dan mata untuk karyawan dan tanggungan", "Medical, dental, and vision insurance for employees and their dependents"),
         lang("Asuransi jiwa dan cacat", "Life and disability insurance"),
         lang("Rekening pengeluaran fleksibel untuk perawatan tanggungan dan kesehatan", "Dependent care and health care flexible spending accounts"),
-        lang("Peluang investasi di reksa dana Renaissance (tergantung kualifikasi)", "Investment opportunity in Renaissance funds, subject to investor qualifications"),
+        lang("Peluang investasi di reksa dana Solidus (tergantung kualifikasi)", "Investment opportunity in Solidus funds, subject to investor qualifications"),
         lang("Program pensiun", "Retirement program"),
         lang("Program pencocokan sumbangan amal", "Charitable gift matching program"),
         lang("Program bantuan adopsi", "Adoption assistance program"),
