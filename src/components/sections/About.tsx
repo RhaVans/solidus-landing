@@ -61,9 +61,12 @@ export default function AboutSection() {
                         className="relative h-[600px] w-full rounded-2xl overflow-hidden group"
                     >
                         <div className="absolute inset-0 bg-gradient-to-tr from-brand-darkblue/40 to-transparent z-10 group-hover:opacity-0 transition-opacity duration-700" />
-                        <img
-                            src="/about-bloomberg.png"
-                            alt="Financial Professional using Bloomberg Terminal"
+                        <video
+                            src="/about-video.mp4"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
                             className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                         />
                     </motion.div>
