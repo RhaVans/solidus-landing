@@ -43,18 +43,18 @@ export default function PortfolioSection() {
                         className="group relative w-full h-[400px] lg:h-full rounded-3xl overflow-hidden cursor-pointer"
                     >
                         <div className="absolute inset-0 bg-brand-darkblue/40 z-10 group-hover:bg-brand-black/20 transition-colors duration-700" />
-                        <Image src="/NOVA SUB COMPANY LOGO .png" alt="Nova Ltd" fill className="object-contain p-20 scale-100 group-hover:scale-95 group-hover:opacity-10 transition-all duration-1000 ease-out" />
+                        <Image src="/novacore-aeroworks.png" alt="Novacore Aeroworks" fill className="object-contain p-16 scale-100 group-hover:scale-95 group-hover:opacity-10 transition-all duration-1000 ease-out" />
 
                         <div className="absolute inset-0 z-20 flex flex-col justify-end p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
                             <div className="transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
                                 <span className="inline-block px-3 py-1 mb-3 border border-indigo-500/50 rounded-full text-[10px] uppercase tracking-widest text-indigo-300">
                                     {lang("Anak Perusahaan", "Subsidiary")}
                                 </span>
-                                <h4 className="text-3xl font-black text-white mb-2">NOVA LTD.</h4>
+                                <h4 className="text-3xl font-black text-white mb-2">NOVACORE AEROWORKS</h4>
                                 <p className="text-sm text-gray-300 font-light opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
                                     {lang(
-                                        "Pengembangan Game AAA berfokus pada cerita berkualitas tinggi (High Quality Story-Driven) dan perangkat lunak di Indonesia.",
-                                        "AAA Game development focused on high-quality storytelling and software in Indonesia."
+                                        "Rekayasa aeronautika dan layanan pertahanan privat (PMC) berfokus pada solusi aerospace canggih dan operasi keamanan strategis.",
+                                        "Aeronautical engineering and private military services (PMC) focused on advanced aerospace solutions and strategic security operations."
                                     )}
                                 </p>
                             </div>
