@@ -86,4 +86,4 @@ solidus-landing/
 
 ##  License
 
-This project is private and proprietary to Solidus Group, L.P.
+This project is private and proprietary to Solidus Group
