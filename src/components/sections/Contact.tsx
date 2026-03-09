@@ -11,6 +11,19 @@ export default function CareersSection() {
 
     const seniorJobs = [
         {
+            id: "s0",
+            title: "Senior Software Engineer",
+            salary: "Rp 100.000.000 / " + lang("bulan", "month"),
+            responsibilities: lang(
+                "Memimpin arsitektur dan pengembangan sistem trading berskala besar. Melakukan code review, mentoring engineer junior, dan memastikan kualitas kode tetap tinggi.",
+                "Lead the architecture and development of large-scale trading systems. Conduct code reviews, mentor junior engineers, and ensure high code quality standards."
+            ),
+            qualifications: lang(
+                "5+ tahun pengalaman profesional. Ahli dalam C++, Rust, atau Go dengan pemahaman mendalam tentang low-latency systems dan distributed computing.",
+                "5+ years of professional experience. Expert in C++, Rust, or Go with deep understanding of low-latency systems and distributed computing."
+            )
+        },
+        {
             id: "s1",
             title: "Senior Quantitative Researcher",
             salary: "Rp 250.000.000+ / " + lang("bulan", "month"),
