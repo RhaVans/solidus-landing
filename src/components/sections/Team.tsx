@@ -4,8 +4,8 @@ import { useLanguage } from "../LanguageContext";
 import { motion } from "framer-motion";
 
 const teamData = [
-    { img: "/Rhameyza Faiqo Susanto.jpg", name: "Rhameyza Faiqo Susanto", role: "Founder, Executive Chairman & CEO" },
-    { img: "/Bangkit Bayu Alfaris.jpg", name: "Bangkit Bayu Alfaris", role: "Co-founder, CTO of Solidus & CEO of NOVA" }
+    { img: "/Rhameyza Faiqo Susanto.jpg", name: "Rhameyza F.S.", role: "Founder, Executive Chairman & CEO" },
+    { img: "/Bangkit Bayu Alfaris.jpg", name: "Bangkit Bayu Alfaris B.S., Msc., Ph.D", role: "Co-founder, CTO of Solidus & CEO of NOVA" }
 ];
 
 export default function TeamSection() {
