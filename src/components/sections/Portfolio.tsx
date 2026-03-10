@@ -62,12 +62,15 @@ export default function PortfolioSection() {
                     </motion.div>
 
                     {/* Pillar 2: Digital Assets */}
-                    <motion.div
+                    <motion.a
+                        href="https://bitcoin.org/bitcoin.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, margin: "-100px" }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="group relative w-full h-[400px] lg:h-full rounded-3xl overflow-hidden cursor-pointer"
+                        className="group relative w-full h-[400px] lg:h-full rounded-3xl overflow-hidden cursor-pointer block"
                     >
                         <div className="absolute inset-0 bg-brand-black z-10 group-hover:bg-brand-black/40 transition-colors duration-700 border border-white/5" />
                         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-1000 ease-out" />
@@ -88,7 +91,7 @@ export default function PortfolioSection() {
                                 </p>
                             </div>
                         </div>
-                    </motion.div>
+                    </motion.a>
 
                     {/* Pillar 3: Fixed Income */}
                     <motion.div
